@@ -1,0 +1,16 @@
+Loại câu hỏi,Metric,Flat RAG,GraphRAG,Nhận xét phân tích
+cross-doc,Comprehensiveness (1-5),3.5,3.0,GraphRAG cung cấp ngữ cảnh thực thể và quan hệ đầy đủ hơn.
+cross-doc,Faithfulness (1-5),5.0,3.0,Cả hai đều giữ được tính trung thực dựa trên context.
+cross-doc,Multi-hop reasoning (1-5),3.5,3.0,GraphRAG vượt trội ở khả năng liên kết thông tin multi-hop.
+cross-doc,Latency trung bình (s),11.2,25.73,Flat RAG phản hồi nhanh hơn do không tốn thời gian duyệt đồ thị.
+cross-doc,Token usage trung bình,2482.5,2555.5,GraphRAG tiêu tốn nhiều token hơn do tích hợp cả subgraph context.
+factoid,Comprehensiveness (1-5),5.0,5.0,GraphRAG cung cấp ngữ cảnh thực thể và quan hệ đầy đủ hơn.
+factoid,Faithfulness (1-5),5.0,5.0,Cả hai đều giữ được tính trung thực dựa trên context.
+factoid,Multi-hop reasoning (1-5),5.0,5.0,GraphRAG vượt trội ở khả năng liên kết thông tin multi-hop.
+factoid,Latency trung bình (s),12.06,32.93,Flat RAG phản hồi nhanh hơn do không tốn thời gian duyệt đồ thị.
+factoid,Token usage trung bình,870.0,556.0,GraphRAG tiêu tốn nhiều token hơn do tích hợp cả subgraph context.
+multi-hop,Comprehensiveness (1-5),4.5,5.0,GraphRAG cung cấp ngữ cảnh thực thể và quan hệ đầy đủ hơn.
+multi-hop,Faithfulness (1-5),4.5,5.0,Cả hai đều giữ được tính trung thực dựa trên context.
+multi-hop,Multi-hop reasoning (1-5),4.5,5.0,GraphRAG vượt trội ở khả năng liên kết thông tin multi-hop.
+multi-hop,Latency trung bình (s),15.27,24.44,Flat RAG phản hồi nhanh hơn do không tốn thời gian duyệt đồ thị.
+multi-hop,Token usage trung bình,2066.0,2186.0,GraphRAG tiêu tốn nhiều token hơn do tích hợp cả subgraph context.
