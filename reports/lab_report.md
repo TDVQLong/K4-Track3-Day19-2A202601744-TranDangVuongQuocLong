@@ -1,6 +1,6 @@
 # Báo Cáo Thực Hành & Thuyết Minh Kỹ Thuật — Lab 19: GraphRAG vs Flat RAG
 
-**Học viên:** Trần Đăng Vương Quốc Long  
+**Học viên:** Trần Đặng Vương Quốc Long  
 **Khóa học:** AICB-K34 · Track 3: GraphRAG  
 **Ngày thực hiện:** 19/08/2026  
 
